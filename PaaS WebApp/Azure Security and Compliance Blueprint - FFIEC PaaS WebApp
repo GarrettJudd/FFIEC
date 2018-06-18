@@ -6,7 +6,7 @@ This Azure Security and Compliance Blueprint provides guidance for the deploymen
 
 This reference architecture, implementation guide, and threat model provide a foundation for customers to comply with FFIEC requirements. This solution provides a baseline to help customers deploy workloads to Azure in a FFIEC compliant manner; however, this solution should not be used as-is in a production environment because additional configuration is required.
 
-Achieving FFIEC-compliance requires that an accredited Qualified Security Assessor (QSA) certify a production customer solution. Customers are responsible for conducting appropriate security and compliance assessments of any solution built using this architecture, as requirements may vary based on the specifics of each customer's implementation.
+Achieving FFIEC-compliance requires that qualified auditors certify a production customer solution. All auditors must be and maintain appearance of being independent from the institution that they are auditing, must have the appropriate levels of experience and knowledge in IT and related risks as well as maintain continuing education of IT and related risks. Customers are responsible for conducting appropriate security and compliance assessments of any solution built using this architecture, as requirements may vary based on the specifics of each customer's implementation.
 
 ## Architecture diagram and components
 
