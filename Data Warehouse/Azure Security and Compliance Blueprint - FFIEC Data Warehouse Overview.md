@@ -22,7 +22,7 @@ This data warehouse reference architecture also includes an Active Directory (Ac
 
 A virtual machine serves as a management bastion host, providing a secure connection for administrators to access deployed resources. The data loads into the staging area through this management bastion host. **Microsoft recommends configuring a VPN or Azure ExpressRoute connection for management and data import into the reference architecture subnet.**
 
-![Reference Architecture](Azure%20Security%20and%20Compliance%20Blueprint%20-%20FFIEC%20NHS%20Data%20Warehouse%20Reference%20Architecture.png)
+![Reference Architecture](Azure%20Security%20and%20Compliance%20Blueprint%20-%20FFIEC%20Data%20Warehouse%20Reference%20Architecture.png)
 
 This solution uses the following Azure services. Details of the deployment architecture are in the [Deployment Architecture](#deployment-architecture) section.
 
@@ -169,7 +169,7 @@ The following Azure Log Analytics [management solutions](https://docs.microsoft.
 
 The data flow diagram for this reference architecture is available for [download](https://aka.ms/) or can be found below. This model can help customers understand the points of potential risk in the system infrastructure when making modifications.
 
-![Threat Model](Azure%20Security%20and%20Compliance%20Blueprint%20-%20FFIEC%20NHS%20Data%20Warehouse%20Threat%20Model.png)
+![Threat Model](Azure%20Security%20and%20Compliance%20Blueprint%20-%20FFIEC%20Data%20Warehouse%20Threat%20Model.png)
 
 ## Compliance documentation
 
