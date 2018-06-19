@@ -2,7 +2,7 @@
 
 ## Overview
 
-This Azure Security and Compliance Blueprint provides guidance for the deployment of a data analytics architecture in Azure that assists with the objectives of Federal Financial Institution Examination Council (FFIEC) Financial Services Regulated Workloads. It showcases a common reference architecture and demonstrates the proper handling of financial data in a secure, compliant, multi-tier environment. This blueprint illustrates an end-to-end solution to meet the needs of organizations seeking a cloud-based approach to reducing the burden and cost of deployment.
+This Azure Security and Compliance Blueprint provides guidance for the deployment of a data analytics architecture in Azure that assists with the objectives of Federal Financial Institution Examination Council (FFIEC) financial services regulated workloads. It showcases a common reference architecture and demonstrates the proper handling of financial data in a secure, compliant, multi-tier environment. This blueprint illustrates an end-to-end solution to meet the needs of organizations seeking a cloud-based approach to reducing the burden and cost of deployment.
 
 This reference architecture, implementation guide, and threat model provide a foundation for customers to comply with FFIEC requirements. This solution provides a baseline to help customers deploy workloads to Azure in a FFIEC compliant manner; however, this solution should not be used as-is in a production environment because additional configuration is required.
 
