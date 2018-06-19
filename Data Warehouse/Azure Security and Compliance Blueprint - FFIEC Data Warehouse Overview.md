@@ -22,7 +22,7 @@ This data warehouse reference architecture also includes an Active Directory (Ac
 
 A virtual machine serves as a management bastion host, providing a secure connection for administrators to access deployed resources. The data loads into the staging area through this management bastion host. **Microsoft recommends configuring a VPN or Azure ExpressRoute connection for management and data import into the reference architecture subnet.**
 
-![Data Warehouse for AU-Protected Reference Architecture](Azure%20Security%20and%20Compliance%20Blueprint%20-%20FFIEC%20Data%20Warehouse%20Reference%20Architecture.png)
+![Data Warehouse for FFIEC Reference Architecture](Azure%20Security%20and%20Compliance%20Blueprint%20-%20FFIEC%20Data%20Warehouse%20Reference%20Architecture.png)
 
 This solution uses the following Azure services. Details of the deployment architecture are in the [Deployment Architecture](#deployment-architecture) section.
 
