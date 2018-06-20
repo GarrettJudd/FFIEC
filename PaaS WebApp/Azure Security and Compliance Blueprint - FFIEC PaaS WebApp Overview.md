@@ -60,7 +60,7 @@ The following section details the deployment and implementation elements.
 
 App Service Environments are isolated to only run a single customer's applications and are always deployed into a virtual network. This isolation feature enables the reference architecture to have complete tenant isolation, removing it from Azure’s multi-tenant environment prohibiting those multi-tenants from enumerating the deployed App Service Environment resources. Customers have fine-grained control over both inbound and outbound application network traffic, and applications can establish high-speed secure connections over virtual networks to on-premises corporate resources. Customers can “auto-scale” with App Service Environment based on load metrics, available budget, or a defined schedule.
 
-Use of App Service Environment for this architecture allows for the following controls/configurations:
+Use of App Service Environment for this architecture allows for the following configurations:
 
 - Host inside a secured Azure virtual network and network security rules
 - Self-signed internal load balancer certificate for HTTPS communication. As a best practice, Microsoft recommends the use of a trusted certificate authority for enhanced security.
@@ -185,9 +185,9 @@ The data flow diagram for this reference architecture is available for [download
 
 ## Compliance documentation
 
-The [Azure Security and Compliance Blueprint – FFIEC Customer Responsibility Matrix](https://aka.ms/) lists all security principles required by FFIEC. This matrix details whether the implementation of each principle is the responsibility of Microsoft, the customer, or shared between the two.
+The [Azure Security and Compliance Blueprint – FFIEC Customer Responsibility Matrix](https://aka.ms/) lists all security objectives required by FFIEC. This matrix details whether the implementation of each objctive is the responsibility of Microsoft, the customer, or shared between the two.
 
-The [Azure Security and Compliance Blueprint – FFIEC PaaS Web Application Implementation Matrix](https://aka.ms/) provides information on which FFIEC requirements are addressed by the PaaS web application architecture, including detailed descriptions of how the implementation meets the requirements of each covered principle.
+The [Azure Security and Compliance Blueprint – FFIEC PaaS Web Application Implementation Matrix](https://aka.ms/) provides information on which FFIEC requirements are addressed by the PaaS web application architecture, including detailed descriptions of how the implementation meets the requirements of each covered objective.
 
 ## Guidance and recommendations
 

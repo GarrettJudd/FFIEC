@@ -2,7 +2,7 @@
 
 ## Overview
 
-This Azure Security and Compliance Blueprint provides guidance for the deployment of a data analytics architecture in Azure that assists with the objectives of Federal Financial Institution Examination Council (FFIEC) financial services regulated workloads.
+This Azure Security and Compliance Blueprint provides guidance for the deployment of a data analytics architecture in Azure suitable for the collection, storage, and retrieval of financial data regulated by the Federal Financial Institution Examination Council (FFIEC).
 
 This reference architecture, implementation guide, and threat model provide a foundation for customers to comply with FFIEC requirements. This solution provides a baseline to help customers deploy workloads to Azure in a FFIEC compliant manner; however, this solution should not be used as-is in a production environment because additional configuration is required.
 
@@ -161,9 +161,9 @@ The data flow diagram for this reference architecture is available for [download
 
 ## Compliance documentation
 
-The [Azure Security and Compliance Blueprint – FFIEC Customer Responsibility Matrix](https://aka.ms/) lists all controls required by FFIEC. This matrix details whether the implementation of each control is the responsibility of Microsoft, the customer, or shared between the two.
+The [Azure Security and Compliance Blueprint – FFIEC Customer Responsibility Matrix](https://aka.ms/) lists all objectives required by FFIEC. This matrix details whether the implementation of each objective is the responsibility of Microsoft, the customer, or shared between the two.
 
-The [Azure Security and Compliance Blueprint – FFIEC Data Analytics Implementation Matrix](https://aka.ms/) provides information on which FFIEC controls are addressed by the data analytics architecture, including detailed descriptions of how the implementation meets the requirements of each covered control.
+The [Azure Security and Compliance Blueprint – FFIEC Data Analytics Implementation Matrix](https://aka.ms/) provides information on which FFIEC objectives are addressed by the data analytics architecture, including detailed descriptions of how the implementation meets the requirements of each covered objective.
 
 
 ## Guidance and recommendations

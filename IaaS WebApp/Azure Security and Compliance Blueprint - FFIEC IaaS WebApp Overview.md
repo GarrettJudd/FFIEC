@@ -2,7 +2,7 @@
 
 ## Overview
 
-This Azure Security and Compliance Blueprint provides guidance for the deployment of an infrastructure as a service (IaaS) environment suitable for the collection, storage, and retrieval of financial data that is compliant with the objectives of Federal Financial Institution Examination Council (FFIEC) financial services regulated workloads.
+This Azure Security and Compliance Blueprint provides guidance for the deployment of a infrastructure as a service (IaaS) environment suitable for the collection, storage, and retrieval of financial data regulated by the Federal Financial Institution Examination Council (FFIEC).
 
 This reference architecture, implementation guide, and threat model provide a foundation for customers to comply with FFIEC requirements. This solution provides a baseline to help customers deploy workloads to Azure in a FFIEC compliant manner, however, this solution should not be used as-is in a production environment because additional configuration is required.
 
@@ -182,9 +182,9 @@ The data flow diagram for this reference architecture is available for [download
 
 ## Compliance documentation
 
-The [Azure Security and Compliance Blueprint – FFIEC Customer Responsibility Matrix](https://aka.ms/) lists all security principles required by FFIEC. This matrix details whether the implementation of each principle is the responsibility of Microsoft, the customer, or shared between the two.
+The [Azure Security and Compliance Blueprint – FFIEC Customer Responsibility Matrix](https://aka.ms/) lists all security objectives required by FFIEC. This matrix details whether the implementation of each objective is the responsibility of Microsoft, the customer, or shared between the two.
 
-The [Azure Security and Compliance Blueprint – FFIEC IaaS Web Application Implementation Matrix](https://aka.ms/) provides information on which FFIEC requirements are addressed by the IaaS web application architecture, including detailed descriptions of how the implementation meets the requirements of each covered principle.
+The [Azure Security and Compliance Blueprint – FFIEC IaaS Web Application Implementation Matrix](https://aka.ms/) provides information on which FFIEC requirements are addressed by the IaaS web application architecture, including detailed descriptions of how the implementation meets the requirements of each covered objective.
 
 ## Guidance and recommendations
 
