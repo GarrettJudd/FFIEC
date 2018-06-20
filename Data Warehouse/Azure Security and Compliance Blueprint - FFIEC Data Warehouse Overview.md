@@ -1,3 +1,15 @@
+---
+title: Azure Security and Compliance Blueprint - Data Warehouse for FFIEC
+description: Azure Security and Compliance Blueprint - Data Warehouse for FFIEC
+services: security
+author: meladie
+
+ms.assetid: eb841702-057b-4e48-8bc8-2873e155d10e
+ms.service: security
+ms.topic: article
+ms.date: 06/20/2018
+ms.author: meladie
+---
 # Azure Security and Compliance Blueprint: Data Warehouse for FFIEC Financial Services
 
 ## Overview

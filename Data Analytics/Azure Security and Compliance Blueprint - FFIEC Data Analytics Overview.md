@@ -1,3 +1,15 @@
+---
+title: Azure Security and Compliance Blueprint - Data Analytics for FFIEC
+description: Azure Security and Compliance Blueprint - Data Analytics for FFIEC
+services: security
+author: meladie
+
+ms.assetid: 31b70690-682c-4c38-9bbb-14dce162867a
+ms.service: security
+ms.topic: article
+ms.date: 06/20/2018
+ms.author: meladie
+---
 # Azure Security and Compliance Blueprint: Analytics for FFIEC Financial Services
 
 ## Overview
