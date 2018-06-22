@@ -28,7 +28,7 @@ For enhanced analytics and reporting, Azure SQL Databases can be configured with
 
 The solution uses Azure Storage accounts, which customers can configure to use Storage Service Encryption to maintain confidentiality of data at rest. Azure stores three copies of data within a customer's selected datacenter for resiliency. Geographic redundant storage ensures that data will be replicated to a secondary datacenter hundreds of miles away and stored again as three copies within that datacenter, preventing an adverse event at the customer's primary data center from resulting in a loss of data.
 
-For enhanced security, all resources in this solution are managed as a resource group through Azure Resource Manager. Azure Active Directory role-based access control is used for controlling access to deployed resources and keys in Azure Key Vault. System health is monitored through Azure Monitor. Customers configure both monitoring services to capture logs and display system health in a single, easily navigable dashboard.
+For enhanced security, all resources in this solution are managed as a resource group through Azure Resource Manager. Azure Active Directory role-based access control is used for controlling access to deployed resources, including their keys in Azure Key Vault. System health is monitored through Azure Monitor. Customers configure both monitoring services to capture logs and display system health in a single, easily navigable dashboard.
 
 Azure SQL Database is commonly managed through SQL Server Management Studio, which runs from a local machine configured to access the Azure SQL Database via a secure VPN or ExpressRoute connection.
 
@@ -191,15 +191,15 @@ The following Log Analytics [management solutions](https://docs.microsoft.com/az
 
 ## Threat model
 
-The data flow diagram for this reference architecture is available for [download](https://aka.ms/) or can be found below. This model can help customers understand the points of potential risk in the system infrastructure when making modifications.
+The data flow diagram for this reference architecture is available for [download](https://aka.ms/FFIECpaasdfd/) or can be found below. This model can help customers understand the points of potential risk in the system infrastructure when making modifications.
 
 ![PaaS WebApp for FFIEC Threat Model](Azure%20Security%20and%20Compliance%20Blueprint%20-%20FFIEC%20PaaS%20WebApp%20Threat%20Model.png)
 
 ## Compliance documentation
 
-The [Azure Security and Compliance Blueprint – FFIEC Customer Responsibility Matrix](https://aka.ms/) lists all security objectives required by FFIEC. This matrix details whether the implementation of each objctive is the responsibility of Microsoft, the customer, or shared between the two.
+The [Azure Security and Compliance Blueprint – FFIEC Customer Responsibility Matrix](https://aka.ms/FFIECcrm/) lists all security objectives required by FFIEC. This matrix details whether the implementation of each objective is the responsibility of Microsoft, the customer, or shared between the two.
 
-The [Azure Security and Compliance Blueprint – FFIEC PaaS Web Application Implementation Matrix](https://aka.ms/) provides information on which FFIEC requirements are addressed by the PaaS web application architecture, including detailed descriptions of how the implementation meets the requirements of each covered objective.
+The [Azure Security and Compliance Blueprint – FFIEC PaaS Web Application Implementation Matrix](https://aka.ms/FFIECpaascim/) provides information on which FFIEC requirements are addressed by the PaaS web application architecture, including detailed descriptions of how the implementation meets the requirements of each covered objective.
 
 ## Guidance and recommendations
 

@@ -180,15 +180,15 @@ The following Log Analytics [management solutions](https://docs.microsoft.com/az
 
 ## Threat model
 
-The data flow diagram for this reference architecture is available for [download](https://aka.ms/) or can be found below. This model can help customers understand the points of potential risk in the system infrastructure when making modifications.
+The data flow diagram for this reference architecture is available for [download](https://aka.ms/FFIECdwdfd/) or can be found below. This model can help customers understand the points of potential risk in the system infrastructure when making modifications.
 
 ![Data Warehouse for FFIEC Threat Model](Azure%20Security%20and%20Compliance%20Blueprint%20-%20FFIEC%20Data%20Warehouse%20Threat%20Model.png)
 
 ## Compliance documentation
 
-The [Azure Security and Compliance Blueprint – FFIEC Customer Responsibility Matrix](https://aka.ms/) lists all objectives required by FFIEC. This matrix details whether the implementation of each objective is the responsibility of Microsoft, the customer, or shared between the two.
+The [Azure Security and Compliance Blueprint – FFIEC Customer Responsibility Matrix](https://aka.ms/FFIECcrm/) lists all objectives required by FFIEC. This matrix details whether the implementation of each objective is the responsibility of Microsoft, the customer, or shared between the two.
 
-The [Azure Security and Compliance Blueprint – FFIEC Data Warehouse Implementation Matrix](https://aka.ms/) provides information on which FFIEC objectives are addressed by the data warehouse architecture, including detailed descriptions of how the implementation meets the requirements of each covered objective.
+The [Azure Security and Compliance Blueprint – FFIEC Data Warehouse Implementation Matrix](https://aka.ms/FFIECdwcim/) provides information on which FFIEC objectives are addressed by the data warehouse architecture, including detailed descriptions of how the implementation meets the requirements of each covered objective.
 
 ## Guidance and recommendations
 
