@@ -58,7 +58,7 @@ This solution uses the following Azure services. Details of the deployment archi
 - Azure Log Analytics
 - Azure Virtual Network
 	- (1) /16 Network
-	- (3) /24 Networks
+	- (4) /24 Networks
 	- Network security groups
 - Azure Web App
 
@@ -67,6 +67,15 @@ This solution uses the following Azure services. Details of the deployment archi
 The following section details the deployment and implementation elements.
 
 **Azure Resource Manager**: [Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview) enables customers to work with the resources in the solution as a group. Customers can deploy, update, or delete all the resources for the solution in a single, coordinated operation. Customers use a template for deployment and that template can work for different environments such as testing, staging, and production. Resource Manager provides security, auditing, and tagging features to help customers manage their resources after deployment.
+
+**Bastion host**: The bastion host is the single point of entry that allows users to access the deployed resources in this environment. The bastion host provides a secure connection to deployed resources by only allowing remote traffic from public IP addresses on a safe list. To permit remote desktop (RDP) traffic, the source of the traffic needs to be defined in the network security group.
+
+This solution creates a virtual machine as a domain-joined bastion host with the following configurations:
+-	[Antimalware extension](https://docs.microsoft.com/azure/security/azure-security-antimalware)
+-	[Azure Diagnostics extension](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-extensions-diagnostics-template)
+-	[Azure Disk Encryption](https://docs.microsoft.com/azure/security/azure-security-disk-encryption) using Azure Key Vault
+-	An [auto-shutdown policy](https://azure.microsoft.com/blog/announcing-auto-shutdown-for-vms-using-azure-resource-manager/) to reduce consumption of virtual machine resources when not in use
+-	[Windows Defender Credential Guard](https://docs.microsoft.com/windows/access-protection/credential-guard/credential-guard) enabled so that credentials and other secrets run in a protected environment that is isolated from the running operating system
 
 **App Service Environment v2**: The Azure App Service Environment is an App Service feature that provides a fully isolated and dedicated environment for securely running App Service applications at a high scale. This isolation feature is required to meet FFIEC compliance requirements.
 
@@ -94,6 +103,7 @@ The architecture defines a private virtual network with an address space of 10.2
 - 1 network security group for Application Gateway
 - 1 network security group for App Service Environment
 - 1 network security group for Azure SQL Database
+- 1 network Security Group for bastion host
 
 Each of the network security groups have specific ports and protocols open so that the solution can work securely and correctly. In addition, the following configurations are enabled for each network security group:
 
