@@ -103,7 +103,7 @@ The architecture defines a private virtual network with an address space of 10.2
 - 1 network security group for Application Gateway
 - 1 network security group for App Service Environment
 - 1 network security group for Azure SQL Database
-- 1 network Security Group for bastion host
+- 1 network security group for bastion host
 
 Each of the network security groups have specific ports and protocols open so that the solution can work securely and correctly. In addition, the following configurations are enabled for each network security group:
 
